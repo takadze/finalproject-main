@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.btn-outline-success {
+    color: brown;
+    border-color: brown;
+}
+/* .navbar {
+    position: fixed;
+    z-index: 9999;
+}  */
+.navbar-brand img{
+    height: 50px;
+    max-width: 300px;
+    min-width: 100px;
+    width: 100%;
+}
+.navbar-nav li {
+    padding-right: 2.0rem;
+}
+
+.navbar-nav li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.container-fluid {
+    padding-bottom: 20px;
+}
+.goup {
+    position: fixed;
+    color: black;
+    width: 60px;
+    height: 40px;
+    padding: 7px 0 0 7px;
+    z-index: 99999;
+}
+.goup a {
+    text-decoration: none;
+    color: black;
+}
+.goup a:hover {
+    background-color: black;
+    color: white;
+}
+.card-pistol img{
+    width: 230px;
+    padding-left: 30px;
+}
+.card-deck {
+    padding-bottom: 20px;
+}
+.card-sniper {
+    height: 400px;
+}
+.sale-background {
+   margin-bottom: 20px;
+}
+.card-img-overlay h4 {
+    font-size: 60px;
+    color: blue;
+}
+.sale-background p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 600;
+}
+.sale-background-span{
+    text-decoration: line-through;
+}
