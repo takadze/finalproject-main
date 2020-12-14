@@ -92,6 +92,28 @@ body{
     background: none;
     border: none;
 }
+.card-bottom {
+    background: none;
+    border: none;
+    font-weight: 700;
+}
+.form-group label {
+    color:white;
+    font-weight: 700;
+}
+.footer-contacts {
+    color: white;
+}
 .fa {
-    height: 50px;
+    font-size: 30px;
+    color: rgb(24, 181, 192);
+    padding: 0 6px;
+}
+.Online-Shopping {
+    background: none;
+    border: none;
+}
+.Online-Shopping img{
+    width: 50px;
+    padding: 10px 5px;
 }
