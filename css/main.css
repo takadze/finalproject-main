@@ -19,15 +19,9 @@ body{
     color: brown;
     border-color: brown;
 }
-/* .navbar {
-    position: fixed;
-    z-index: 9999;
-}  */
 .navbar-brand img{
-    height: 50px;
-    max-width: 300px;
-    min-width: 100px;
     width: 100%;
+    max-width: 150px;
 }
 .navbar-nav li {
     padding-right: 2.0rem;
@@ -70,15 +64,34 @@ body{
 .sale-background {
    margin-bottom: 20px;
 }
+.card-img-overlay h3 {
+    text-align: center;
+}
 .card-img-overlay h4 {
     font-size: 60px;
-    color: blue;
+    color: white;
+    text-align: center;
 }
 .sale-background p{
-    color: yellow;
+    color: white;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
 }
 .sale-background-span{
     text-decoration: line-through;
+}
+.background-image {
+    background-image: url(../pictures/footer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+}
+.footer-card {
+    background: none;
+    border: none;
+}
+.fa {
+    height: 50px;
 }
